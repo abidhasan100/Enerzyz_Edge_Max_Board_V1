@@ -1,11 +1,9 @@
 # Enerzyz_Edge_Max_Board_V1
-# Luckfox Pico Plus Project
 
 ## Overview
 
 This project is based on the **Luckfox Pico Plus** development board. The repository contains source code, setup instructions, hardware connections, and deployment steps for building and running the project.
 
----
 
 ## Board Information
 
@@ -26,7 +24,6 @@ This project is based on the **Luckfox Pico Plus** development board. The reposi
 * Camera interface support
 * Lightweight and power-efficient
 
----
 
 ## Project Structure
 
@@ -42,7 +39,6 @@ This project is based on the **Luckfox Pico Plus** development board. The reposi
 └── LICENSE             # License file
 ```
 
----
 
 ## Requirements
 
@@ -62,7 +58,6 @@ This project is based on the **Luckfox Pico Plus** development board. The reposi
 * Cross compiler toolchain (optional)
 * Python 3.x (if required)
 
----
 
 ## Installation
 
@@ -82,8 +77,6 @@ cmake ..
 make
 ```
 
----
-
 ## Flashing Firmware
 
 ### Enter Loader Mode
@@ -99,7 +92,6 @@ make
 sudo upgrade_tool di firmware/update.img
 ```
 
----
 
 ## Running the Project
 
@@ -115,7 +107,6 @@ sudo upgrade_tool di firmware/update.img
 python3 main.py
 ```
 
----
 
 ## GPIO Example
 
@@ -143,8 +134,6 @@ echo 1 > /sys/class/gpio/gpio23/value
 echo 0 > /sys/class/gpio/gpio23/value
 ```
 
----
-
 ## UART Example
 
 ### Open Serial Console
@@ -153,7 +142,6 @@ echo 0 > /sys/class/gpio/gpio23/value
 screen /dev/ttyUSB0 115200
 ```
 
----
 
 ## SSH Access
 
@@ -162,8 +150,6 @@ screen /dev/ttyUSB0 115200
 ```bash
 ssh root@192.168.1.100
 ```
-
----
 
 ## Troubleshooting
 
@@ -185,7 +171,6 @@ ssh root@192.168.1.100
 sudo chmod +x your_application
 ```
 
----
 
 ## Screenshots
 
@@ -197,7 +182,6 @@ Example:
 ![Project Screenshot](images/project.png)
 ```
 
----
 
 ## Future Improvements
 
@@ -207,19 +191,16 @@ Example:
 * Add MQTT support
 * Add sensor integrations
 
----
 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
----
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the ENERZYZ Limited License.
 
----
 
 ## Author
 
